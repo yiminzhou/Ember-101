@@ -1,0 +1,38 @@
+$swatch-colours: (
+  red: #fa3443,
+  pink: #f37b84,
+  orange: #ff8c37,
+  yellow: #ffca4c,
+  green: #00e06e,
+  blue: #05afed,
+  purple: #713899,
+  black: #000000,
+  white: #ffffff
+);
+
+.swatch-pane {
+  width: 140px;
+  border: 1px solid #ebebeb;
+  background-color: white;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.swatch-display {
+  width: 100%;
+  height: 140px;
+  border-bottom: 1px solid #edeeec;
+}
+
+@each $colour, $hex in $swatch-colours {
+  .#{$colour} {
+    background-color: #{$hex};
+  }
+}
+
+.swatch-info {
+  color: #59626a;
+  line-height: 20px;
+  padding: 8px 12px;
+  font-size: 12px;
+}
