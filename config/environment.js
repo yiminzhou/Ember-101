@@ -4,7 +4,12 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'my-app',
     environment: environment,
-    contentSecurityPolicy: { 'connect-src': "'self' https://auth.firebase.com wss://*.firebaseio.com" },
+    contentSecurityPolicy: {
+      'connect-src': "'self' https://auth.firebase.com wss://*.firebaseio.com",
+      'font-src': "'self' data: fonts.gstatic.com",
+      'style-src': "'self' 'unsafe-inline' fonts.googleapis.com",
+    },
+
     firebase: 'https://radiant-torch-2046.firebaseio.com/',
     baseURL: '/',
     locationType: 'auto',
