@@ -1,0 +1,41 @@
+{
+  "colours": {
+    "col1": {
+      "name": "red",
+      "hex": "#fa3443"
+
+    },
+    "col2": {
+      "name": "pink",
+      "hex": "#f37b84"
+    },
+    "col3": {
+      "name": "orange",
+      "hex": "#ff8c37"
+    },
+    "col4": {
+      "name": "yellow",
+      "hex": "#ffca4c"
+    },
+    "col5": {
+      "name": "green",
+      "hex": "#00e06e"
+    },
+    "col6": {
+      "name": "blue",
+      "hex": "#05afed"
+    },
+    "col7": {
+      "name": "purple",
+      "hex": "#713899"
+    },
+    "col8": {
+      "name": "black",
+      "hex": "#000000"
+    },
+    "col9": {
+      "name": "white",
+      "hex": "#ffffff"
+    }
+  }
+}

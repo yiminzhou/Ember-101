@@ -1,0 +1,4 @@
+.swatches {
+  @include display(flex);
+  @include justify-content(space-around);
+}
